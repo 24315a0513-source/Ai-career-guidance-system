@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AI Career Guidance System</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <header>
+            <h1>🎓 AI Career Guidance System</h1>
+            <p>Discover Your Skills. Explore Your Future.</p>
+        </header>
+
+        <h2>Enter Your Details</h2>
+
+        <label>Student Name</label>
+        <input type="text" id="name" placeholder="Enter your name">
+
+        <label>Qualification</label>
+        <select id="qualification">
+            <option value="">Select Qualification</option>
+            <option>B.Tech</option>
+            <option>B.Sc</option>
+            <option>B.Com</option>
+            <option>MCA</option>
+            <option>MBA</option>
+            <option>Other</option>
+        </select>
+
+        <label>Your Skills</label>
+        <input type="text" id="skills"
+               placeholder="Java, Python, HTML, SQL">
+
+        <label>Your Interests</label>
+        <input type="text" id="interests"
+               placeholder="Coding, Designing, Data">
+
+        <label>Career Goal</label>
+        <select id="goal">
+            <option value="">Select Career Goal</option>
+            <option>Software Development</option>
+            <option>Data Science</option>
+            <option>Web Development</option>
+            <option>Cyber Security</option>
+            <option>UI/UX Design</option>
+        </select>
+
+        <button onclick="getCareer()">
+            Generate Career Guidance
+        </button>
+
+        <div id="output">
+            <h2>Your Career Recommendations</h2>
+            <p>Enter your details to explore suitable career paths.</p>
+        </div>
+
+        <footer>
+            <p>AI Career Guidance System | Internship Project</p>
+        </footer>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

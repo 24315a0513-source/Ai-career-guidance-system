@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+    padding: 20px;
+    background: #eef2ff;
+    font-family: Arial, sans-serif;
+    color: #1e293b;
+}
+
+.container {
+    max-width: 700px;
+    margin: auto;
+    padding: 25px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px #cbd5e1;
+}
+
+header {
+    background: #1e3a8a;
+    color: white;
+    padding: 22px;
+    text-align: center;
+    border-radius: 12px;
+}
+
+header h1 {
+    font-size: 27px;
+}
+
+header p {
+    color: #dbeafe;
+}
+
+h2 {
+    color: #1e3a8a;
+    margin-top: 25px;
+}
+
+label {
+    display: block;
+    margin-top: 18px;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+input, select {
+    width: 100%;
+    padding: 13px;
+    box-sizing: border-box;
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+    font-size: 15px;
+}
+
+button {
+    width: 100%;
+    padding: 15px;
+    margin-top: 25px;
+    background: #2563eb;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #1d4ed8;
+}
+
+#output {
+    margin-top: 30px;
+    padding: 18px;
+    background: #f8fafc;
+    border-radius: 10px;
+}
+
+.career {
+    background: #e0e7ff;
+    padding: 15px;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+
+.career h3 {
+    color: #1e40af;
+}
+
+footer {
+    text-align: center;
+    color: #64748b;
+    margin-top: 30px;
+    font-size: 13px;
+}
+
+@media (max-width: 550px) {
+    .container {
+        padding: 15px;
+    }
+
+    header h1 {
+        font-size: 21px;
+    }
+}
